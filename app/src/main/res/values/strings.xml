@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Healthy eating</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Рецепты</string>
+    <string name="nav_header_subtitle">pn.anastasia@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_info">Про приложение</string>
+    <string name="action_exit">Выход</string>
+
+    <string name="menu_home">Рецепты</string>
+    <string name="menu_components">Ингридиенты</string>
+    <string name="menu_dishes">Блюда</string>
+    <string name="menu_country">Страны</string>
+    <string name="menu_authors">Повара</string>
+    <string name="title_activity_main2">MainActivityComponents</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label_components">Ингридиенты</string>
+    <string name="first_fragment_label_dishes">Блюда</string>
+    <string name="first_fragment_label_country">Страны</string>
+    <string name="first_fragment_label_authors">Повара</string>
+    <string name="second_fragment_label">Рецепты</string>
+    <string name="next">Ввести</string>
+    <string name="previous">Поиск</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main3">MainActivityDishes</string>
+    <string name="title_activity_main4">MainActivityCountry</string>
+    <string name="title_activity_main5">MainActivityAuthors</string>
+    <string name="title_activity_dish">Рецепты</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.nuzp.proupernutrition.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_components"
+        android:name="edu.nuzp.proupernutrition.FirstComponentsFragment"
+        android:label="@string/menu_components"
+        tools:layout="@layout/fragment_first_components" />
+
+    <fragment
+        android:id="@+id/nav_dishes"
+        android:name="edu.nuzp.proupernutrition.FirstDishesFragment"
+        android:label="@string/menu_dishes"
+        tools:layout="@layout/fragment_first_dishes" />
+
+    <fragment
+        android:id="@+id/nav_country"
+        android:name="edu.nuzp.proupernutrition.FirstCountryFragment"
+        android:label="@string/menu_country"
+        tools:layout="@layout/fragment_first_country" />
+
+    <fragment
+        android:id="@+id/nav_authors"
+        android:name="edu.nuzp.proupernutrition.FirstAuthorsFragment"
+        android:label="@string/menu_authors"
+        tools:layout="@layout/fragment_first_authors" />
+
+</navigation>
